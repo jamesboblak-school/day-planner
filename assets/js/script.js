@@ -12,28 +12,29 @@ function colorBarClock() {
     // startTime.toString(); // "Fri Oct 28 2016 18:00:00 GMT-0400"
     console.log("startTime: " + (startTime));
     console.log("currentTime: " + currentTime);
+    var msPerHour = 3600000;
     if (currentTime > startTime) {
         $("#8aEvent").addClass("table-danger");
     }
-    if (currentTime > (startTime + 3600000)) {
+    if (currentTime > (startTime + msPerHour)) {
         $("#9aEvent").addClass("table-danger");
     }
-    if (currentTime > (startTime + 7200000)) {
+    if (currentTime > (startTime + (msPerHour *2))) {
         $("#10aEvent").addClass("table-danger");
     }
-    if (currentTime > (startTime + 10800000)) {
+    if (currentTime > (startTime + (msPerHour *3))) {
         $("#11aEvent").addClass("table-danger");
     }
-    if (currentTime > (startTime + 14400000)) {
+    if (currentTime > (startTime + (msPerHour *4))) {
         $("#12pEvent").addClass("table-danger");
     }
-    if (currentTime > (startTime + 18000000)) {
+    if (currentTime > (startTime + (msPerHour *5))) {
         $("#1pEvent").addClass("table-danger");
     }
-    if (currentTime > (startTime + 21600000)) {
+    if (currentTime > (startTime + (msPerHour *6))) {
         $("#2aEvent").addClass("table-danger");
     }
-    if (currentTime > (startTime + 25200000)) {
+    if (currentTime > (startTime + (msPerHour *7))) {
         $("#8aEvent").addClass("table-danger");
     }
 }
