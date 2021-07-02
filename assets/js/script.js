@@ -126,3 +126,58 @@ $("#3pDelete").click(function () {
 $("#4pDelete").click(function () {
     $('#4pEntry').text("");
 });
+
+// Event local storage
+$("#8aSave").click(function () {
+    var value8a = $( "#8aEntry" ).text();
+    console.log("value8a: " + value8a);
+    localStorage.setItem("#8aEntry" , value8a);
+});
+
+$("#9aSave").click(function () {
+    var value8a = $( "#9aEntry" ).text();
+    console.log("value9a: " + value8a);
+    localStorage.setItem("#9aEntry" , value8a);
+});
+
+$("#10aSave").click(function () {
+    var value8a = $( "#10aEntry" ).text();
+    console.log("value10a: " + value8a);
+    localStorage.setItem("#10aEntry" , value8a);
+});
+
+$("#11aSave").click(function () {
+    var value8a = $( "#11aEntry" ).text();
+    console.log("value11a: " + value8a);
+    localStorage.setItem("#11aEntry" , value8a);
+});
+
+$("#12pSave").click(function () {
+    var value8a = $( "#12pEntry" ).text();
+    console.log("value12p: " + value8a);
+    localStorage.setItem("#12pEntry" , value8a);
+});
+
+$("#1pSave").click(function () {
+    var value8a = $( "#1pEntry" ).text();
+    console.log("value1p: " + value8a);
+    localStorage.setItem("#1pEntry" , value8a);
+});
+
+$("#2pSave").click(function () {
+    var value8a = $( "#2pEntry" ).text();
+    console.log("value2p: " + value8a);
+    localStorage.setItem("#2pEntry" , value8a);
+});
+
+$("#3pSave").click(function () {
+    var value8a = $( "#3pEntry" ).text();
+    console.log("value3p: " + value8a);
+    localStorage.setItem("#3pEntry" , value8a);
+});
+
+$("#4pSave").click(function () {
+    var value8a = $( "#4pEntry" ).text();
+    console.log("value4p: " + value8a);
+    localStorage.setItem("#4pEntry" , value8a);
+});

@@ -18,6 +18,8 @@ Create, ajdust, and view your daily plan in realtime.
 <!-- JQuery Pionts -->
 * JQuery
     * Add class
+    * Text query and submission
+    * Local storage
 
 <!-- Bootstrap Pionts -->
 * Bootstrap
