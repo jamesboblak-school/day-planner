@@ -32,10 +32,13 @@ function colorBarClock() {
         $("#1pEvent").addClass("table-danger");
     }
     if (currentTime > (startTime + (msPerHour *6))) {
-        $("#2aEvent").addClass("table-danger");
+        $("#2pEvent").addClass("table-danger");
     }
     if (currentTime > (startTime + (msPerHour *7))) {
-        $("#8aEvent").addClass("table-danger");
+        $("#3pEvent").addClass("table-danger");
+    }
+    if (currentTime > (startTime + (msPerHour *8))) {
+        $("#4pEvent").addClass("table-danger");
     }
 }
 
