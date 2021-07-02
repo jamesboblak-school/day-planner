@@ -44,6 +44,53 @@ function colorBarClock() {
 
 colorBarClock();
 
+// Local Storage recovery
+$("#8aEntry").text(function () {
+    var mem8a = localStorage.getItem("#8aEntry");
+    console.log("mem8a :" + mem8a);
+    $('#8aEntry').text(mem8a);
+})
+
+$("#9aEntry").text(function () {
+    var mem9a = localStorage.getItem("#9aEntry");
+    $('#9aEntry').text(mem9a);
+})
+
+$("#10aEntry").text(function () {
+    var mem10a = localStorage.getItem("#10aEntry");
+    $('#10aEntry').text(mem10a);
+})
+
+$("#11aEntry").text(function () {
+    var mem11a = localStorage.getItem("#11aEntry");
+    $('#11aEntry').text(mem11a);
+})
+
+$("#12pEntry").text(function () {
+    var mem12p = localStorage.getItem("#12pEntry");
+    $('#12pEntry').text(mem12p);
+})
+
+$("#1pEntry").text(function () {
+    var mem1p = localStorage.getItem("#1pEntry");
+    $('#1pEntry').text(mem1p);
+})
+
+$("#2pEntry").text(function () {
+    var mem2p = localStorage.getItem("#2pEntry");
+    $('#2pEntry').text(mem2p);
+})
+
+$("#3pEntry").text(function () {
+    var mem3p = localStorage.getItem("#3pEntry");
+    $('#3pEntry').text(mem3p);
+})
+
+$("#4pEntry").text(function () {
+    var mem4p = localStorage.getItem("#4pEntry");
+    $('#4pEntry').text(mem4p);
+})
+
 // Mouse click event listeners to record event entry
 $("#8aEntry").click(function () {
     var userEntry = prompt("What do you need to do at 8am?");
@@ -135,49 +182,49 @@ $("#8aSave").click(function () {
 });
 
 $("#9aSave").click(function () {
-    var value8a = $( "#9aEntry" ).text();
-    console.log("value9a: " + value8a);
-    localStorage.setItem("#9aEntry" , value8a);
+    var value9a = $( "#9aEntry" ).text();
+    console.log("value9a: " + value9a);
+    localStorage.setItem("#9aEntry" , value9a);
 });
 
 $("#10aSave").click(function () {
-    var value8a = $( "#10aEntry" ).text();
-    console.log("value10a: " + value8a);
-    localStorage.setItem("#10aEntry" , value8a);
+    var value10a = $( "#10aEntry" ).text();
+    console.log("value10a: " + value10a);
+    localStorage.setItem("#10aEntry" , value10a);
 });
 
 $("#11aSave").click(function () {
-    var value8a = $( "#11aEntry" ).text();
-    console.log("value11a: " + value8a);
-    localStorage.setItem("#11aEntry" , value8a);
+    var value11a = $( "#11aEntry" ).text();
+    console.log("value11a: " + value11a);
+    localStorage.setItem("#11aEntry" , value11a);
 });
 
 $("#12pSave").click(function () {
-    var value8a = $( "#12pEntry" ).text();
-    console.log("value12p: " + value8a);
-    localStorage.setItem("#12pEntry" , value8a);
+    var value12p = $( "#12pEntry" ).text();
+    console.log("value12p: " + value12p);
+    localStorage.setItem("#12pEntry" , value12p);
 });
 
 $("#1pSave").click(function () {
-    var value8a = $( "#1pEntry" ).text();
-    console.log("value1p: " + value8a);
-    localStorage.setItem("#1pEntry" , value8a);
+    var value1p = $( "#1pEntry" ).text();
+    console.log("value1p: " + value1p);
+    localStorage.setItem("#1pEntry" , value1p);
 });
 
 $("#2pSave").click(function () {
-    var value8a = $( "#2pEntry" ).text();
-    console.log("value2p: " + value8a);
-    localStorage.setItem("#2pEntry" , value8a);
+    var value2p = $( "#2pEntry" ).text();
+    console.log("value2p: " + value2p);
+    localStorage.setItem("#2pEntry" , value2p);
 });
 
 $("#3pSave").click(function () {
-    var value8a = $( "#3pEntry" ).text();
-    console.log("value3p: " + value8a);
-    localStorage.setItem("#3pEntry" , value8a);
+    var value3p = $( "#3pEntry" ).text();
+    console.log("value3p: " + value3p);
+    localStorage.setItem("#3pEntry" , value3p);
 });
 
 $("#4pSave").click(function () {
-    var value8a = $( "#4pEntry" ).text();
-    console.log("value4p: " + value8a);
-    localStorage.setItem("#4pEntry" , value8a);
+    var value4p = $( "#4pEntry" ).text();
+    console.log("value4p: " + value4p);
+    localStorage.setItem("#4pEntry" , value4p);
 });
