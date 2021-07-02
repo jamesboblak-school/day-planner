@@ -140,38 +140,47 @@ $("#4pEntry").click(function () {
 // Delete buttons
 $("#8aDelete").click(function () {
     $('#8aEntry').text("");
+    localStorage.setItem("#8aEntry" , "");
 });
 
 $("#9aDelete").click(function () {
     $('#9aEntry').text("");
+    localStorage.setItem("#9aEntry" , "");
 });
 
 $("#10aDelete").click(function () {
     $('#10aEntry').text("");
+    localStorage.setItem("#10aEntry" , "");
 });
 
 $("#11aDelete").click(function () {
     $('#11aEntry').text("");
+    localStorage.setItem("#11aEntry" , "");
 });
 
 $("#12pDelete").click(function () {
     $('#12pEntry').text("");
+    localStorage.setItem("#12pEntry" , "");
 });
 
 $("#1pDelete").click(function () {
     $('#1pEntry').text("");
+    localStorage.setItem("#1pEntry" , "");
 });
 
 $("#2pDelete").click(function () {
     $('#2pEntry').text("");
+    localStorage.setItem("#2pEntry" , "");
 });
 
 $("#3pDelete").click(function () {
     $('#3pEntry').text("");
+    localStorage.setItem("#3pEntry" , "");
 });
 
 $("#4pDelete").click(function () {
     $('#4pEntry').text("");
+    localStorage.setItem("#4pEntry" , "");
 });
 
 // Event local storage
