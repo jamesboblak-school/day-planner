@@ -4,7 +4,8 @@
 <!-- Instructions for use -->
 Link to site: https://jamesboblak.github.io/day-planner/  
 This daily planner features a color-changing row feature that keeps track of the time, following you through your day.
-![Demo image](./images/day-planner_demo.png)  
+![Demo image](./images/day-planner_demo.png) 
+Simple click in the event column to add your activity.  If you click the save icon, it will keep your event stored even if you refresh the page.  If you delete the event by clicking on the delete icon, it will be gone forever from your calendar. 
 
 <!-- Statement of purpose -->
 ## Purpose

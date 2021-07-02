@@ -17,6 +17,10 @@ td:hover {
     background-color: white;
 }
 
+td:onclick {
+    background-color: blue;
+}
+
 .jumbotron {
     text-align: center;
     background-color: transparent;
