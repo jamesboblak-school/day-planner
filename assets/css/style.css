@@ -13,6 +13,10 @@ textarea {
     padding: 10px;
 }
 
+td:hover {
+    background-color: white;
+}
+
 .jumbotron {
     text-align: center;
     background-color: transparent;
