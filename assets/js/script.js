@@ -44,6 +44,7 @@ function colorBarClock() {
 
 colorBarClock();
 
+// Mouse click event listeners to record event entry
 $("#8aEntry").click(function () {
     var userEntry = prompt("What do you need to do at 8am?");
     $('#8aEntry').append(userEntry);
@@ -87,4 +88,41 @@ $("#3pEntry").click(function () {
 $("#4pEntry").click(function () {
     var userEntry = prompt("What do you need to do at 4pm?");
     $('#4pEntry').append(userEntry);
+});
+
+// Delete buttons
+$("#8aDelete").click(function () {
+    $('#8aEntry').text("");
+});
+
+$("#9aDelete").click(function () {
+    $('#9aEntry').text("");
+});
+
+$("#10aDelete").click(function () {
+    $('#10aEntry').text("");
+});
+
+$("#11aDelete").click(function () {
+    $('#11aEntry').text("");
+});
+
+$("#12pDelete").click(function () {
+    $('#12pEntry').text("");
+});
+
+$("#1pDelete").click(function () {
+    $('#1pEntry').text("");
+});
+
+$("#2pDelete").click(function () {
+    $('#2pEntry').text("");
+});
+
+$("#3pDelete").click(function () {
+    $('#3pEntry').text("");
+});
+
+$("#4pDelete").click(function () {
+    $('#4pEntry').text("");
 });
